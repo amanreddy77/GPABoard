@@ -32,7 +32,7 @@ The application will run at http://localhost:3000.
 
 ---
 
-👥 Development Team
+👥 Development by
 
 - Aman Reddy — reddyaman77.ar@gmail.com
 
@@ -48,7 +48,7 @@ The application will run at http://localhost:3000.
 
 📌 Scope
 
-- Input of grades and credit hours for each course.
+- Displays of grades and credit hours for each course.
 - GPA calculation and prediction.
 - Academic data visualization.
 - Academic recommendations based on trend analysis.
@@ -67,24 +67,6 @@ The application will run at http://localhost:3000.
 
 ---
 
-👤 User Characteristics
-
-- Students aiming to monitor and enhance their academic performance.
-
-⚠️ System Limitations
-
-- System accuracy depends on the validity of the input data.
-- The system serves as an aid, not a replacement for academic advisors.
-
----
-
-📋 System Requirements
-
-Functional
-- Input/edit/delete grade data.
-- Calculate and predict GPA.
-- Display charts and recommendations.
-- Account management by admin.
 
 Non-Functional
 - ✅ Responsive on mobile and desktop.
@@ -93,31 +75,6 @@ Non-Functional
 
 ---
 
-✅ User Stories
-
-- As a student, I want to input my grades to track my performance.
-- As a student, I want GPA predictions to plan my academic path.
-- As an admin, I want to manage user accounts to ensure system security.
-
----
-
-📌 Use Case List
-
-| ID     | Use Case Name             | Actor     |
-|--------|---------------------------|-----------|
-| UC-01  | Login                     | Student   |
-| UC-02  | Register                  | Student   |
-| UC-03  | Input Grade Data          | Student   |
-| UC-04  | Edit Grade Data           | Student   |
-| UC-05  | Calculate GPA             | System    |
-| UC-06  | Predict GPA               | System    |
-| UC-07  | Data Visualization        | System    |
-| UC-08  | Academic Recommendations  | System    |
-| UC-09  | Manage User Accounts      | Admin     |
-| UC-10  | Reset Password            | Admin     |
-| UC-11  | Logout                    | Student   |
-
----
 
 📈 Flowchart & BPMN
 
@@ -135,7 +92,7 @@ UI designs are available on request or in the `/designs` folder.
 
 📁 Folder Structure
 ```bash
-gpalytics/
+gpaBoard/
 ├── public/
 ├── src/
 │   ├── components/
@@ -149,7 +106,7 @@ gpalytics/
 
 ✅ Conclusion
 
-GPAlytics is an academic assistance system that applies sound software engineering principles. With predictive and recommendation features, it has the potential to become an essential tool for students. However, prediction accuracy, data security, and user adoption remain key challenges to address.
+GPABoard is an academic assistance system that applies sound software engineering principles. With predictive and recommendation features, it has the potential to become an essential tool for students. However, prediction accuracy, data security, and user adoption remain key challenges to address.
 
 ---
 
